@@ -22,12 +22,11 @@ SELECT NAME FROM v$database;
 -- SELECT NAME, VALUE, ISSYS_MODIFIABLE FROM V$PARAMETER WHERE NAME = 'memory_max_target';
 
 -- Alter the memory_target parameter down to 500MB 
--- ALTER SYSTEM SET memory_target=3000m scope=spfile;
+-- ALTER SYSTEM SET memory_target=500m scope=spfile;
 
 -- Alter the memory_max_target parameter down to 500MB
--- ALTER SYSTEM SET memory_max_target=3500m scope=spfile;
+-- ALTER SYSTEM SET memory_max_target=500m scope=spfile;
 
--- Force startup the database to reload the parameters from the spfile
--- STARTUP;
+-- SHUT DOWN DATABASE AND RESTART IT IN ORDER FOR THE MEMORY PARAMETERS TO BE RESET
 
 SPOOL off;
