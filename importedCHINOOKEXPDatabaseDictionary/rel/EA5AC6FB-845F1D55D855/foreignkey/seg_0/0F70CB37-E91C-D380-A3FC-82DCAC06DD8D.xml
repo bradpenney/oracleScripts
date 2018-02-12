@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0F70CB37-E91C-D380-A3FC-82DCAC06DD8D" containerWithKeyObject="627F90EA-D59C-9C21-AC30-A82C13305414" localFKIndex="AC40ECA5-49BF-2FA3-3FC0-1A40F4ED3E74" name="FK_CUSTOMERSUPPORTREPID">
+<sourceConnName>EXPChinook</sourceConnName>
+<sourceObjSchema>EXPCHINOOK</sourceObjSchema>
+<sourceObjName>FK_CUSTOMERSUPPORTREPID</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:30 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+<referredTableLongName>EXPCHINOOK.EMPLOYEE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>267C4A02-F61B-19DD-7142-A4A20A61DF2D</referredTableID>
+<keyObject>E65A75FF-B144-2982-DE1E-BC000BF0F9B3</keyObject>
+<referredKeyID>E65A75FF-B144-2982-DE1E-BC000BF0F9B3</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>EMPLOYEEID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

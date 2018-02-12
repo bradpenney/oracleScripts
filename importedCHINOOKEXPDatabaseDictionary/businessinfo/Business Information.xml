@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="710F932A-6575-39F2-A913-414F0CEEDCC5">
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 16:39:34 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

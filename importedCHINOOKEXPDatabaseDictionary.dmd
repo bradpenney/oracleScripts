@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="importedCHINOOKEXPDatabaseDictionary" id="8C88686E-3E73-2C56-6749-4D8B7605A47F" version="3.5">
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 16:39:34 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>8C88686E-3E73-2C56-6749-4D8B7605A47F</designId>
+</OSDM_Design>

@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="64C15E3C-4FF3-FB0F-1C61-A6CAC2E91DDC" schemaObject="6BBDA5EF-6186-3387-2412-350926E3A888" name="INVOICELINE">
+<sourceConnName>EXPChinook</sourceConnName>
+<sourceObjSchema>EXPCHINOOK</sourceObjSchema>
+<sourceObjName>INVOICELINE</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:29 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="INVOICELINEID" id="C4D819C1-8C9F-44A5-D749-9321DF6232BE">
+<sourceConnName>EXPChinook</sourceConnName>
+<sourceObjSchema>INVOICELINE</sourceObjSchema>
+<sourceObjName>INVOICELINEID</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:29 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INVOICEID" id="0D08E8C0-EEAE-6EF6-3ABC-02F19E2A367A">
+<sourceConnName>EXPChinook</sourceConnName>
+<sourceObjSchema>INVOICELINE</sourceObjSchema>
+<sourceObjName>INVOICEID</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:29 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="85391702-4ABD-2BFE-9EDF-1879ECB78798" referredColumn="9F8268CE-2A3C-BE43-4229-53E45B9FA1D7"/>
+</associations>
+</Column>
+<Column name="TRACKID" id="52028E95-737E-DB27-EF31-2D6D10D93D7C">
+<sourceConnName>EXPChinook</sourceConnName>
+<sourceObjSchema>INVOICELINE</sourceObjSchema>
+<sourceObjName>TRACKID</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:29 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0B8CD3E9-5826-E5B1-A129-24B3A472D7C5" referredColumn="02586292-FFC2-8173-0BFF-C8C1C7C7C748"/>
+</associations>
+</Column>
+<Column name="UNITPRICE" id="BC4BDFB7-2A8F-DB95-29E4-6EE77AB48F38">
+<sourceConnName>EXPChinook</sourceConnName>
+<sourceObjSchema>INVOICELINE</sourceObjSchema>
+<sourceObjName>UNITPRICE</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:29 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QUANTITY" id="53EB19BC-C134-30CE-43BE-4F253B7F8562">
+<sourceConnName>EXPChinook</sourceConnName>
+<sourceObjSchema>INVOICELINE</sourceObjSchema>
+<sourceObjName>QUANTITY</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:29 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="692847A2-CEFE-5B98-3DEE-E8E09CBA5936" name="PK_INVOICELINE">
+<sourceConnName>EXPChinook</sourceConnName>
+<sourceObjSchema>EXPCHINOOK</sourceObjSchema>
+<sourceObjName>PK_INVOICELINE</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:30 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4D819C1-8C9F-44A5-D749-9321DF6232BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="629450FE-C58B-2461-DB40-C81899AA6CA1" schemaObject="6BBDA5EF-6186-3387-2412-350926E3A888" name="PK_INVOICELINE">
+<sourceConnName>EXPChinook</sourceConnName>
+<sourceObjSchema>EXPCHINOOK</sourceObjSchema>
+<sourceObjName>PK_INVOICELINE</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:30 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4D819C1-8C9F-44A5-D749-9321DF6232BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="39AB9AA0-F930-B5FB-3053-D6C970141EF1" name="FK_INVOICELINEINVOICEID">
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:30 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D08E8C0-EEAE-6EF6-3ABC-02F19E2A367A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65F195EE-FED7-1334-5291-65D19739870E" name="FK_INVOICELINETRACKID">
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:30 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52028E95-737E-DB27-EF31-2D6D10D93D7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

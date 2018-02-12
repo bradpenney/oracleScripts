@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CUSTOMER" directorySegmentName="seg_0" id="627F90EA-D59C-9C21-AC30-A82C13305414">
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:29 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+<schemaObject>6BBDA5EF-6186-3387-2412-350926E3A888</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>98D46B35-ABDE-F4D9-63AD-F25C7740C0E1</segment>
+<tableSpace>3D733BC5-CF7C-EC32-B294-E1DC65110C4B</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="SUPPORTREPID" id="0624817B-C142-FD8B-FD5C-99F7B319EB2B">
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:29 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMAIL" id="0CA530B5-3DC9-794E-F5F9-77E0E713C995">
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:29 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ADDRESS" id="0F6511BB-784F-41E1-5331-7E0012A3B392">
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:29 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATE" id="4570758E-19AB-3819-E9CA-7F946295DD91">
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:29 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CITY" id="4A4B714F-F412-29DE-9A5D-E193AB158A2E">
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:29 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LASTNAME" id="5982E3DB-8A67-F3E6-4BF9-6363BF5C4736">
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:29 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FAX" id="5D9B908E-BE40-9D27-E109-D95FBCC3EFCF">
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:29 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="POSTALCODE" id="A017A1A5-F851-8695-09F4-CD5122F883B7">
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:29 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUSTOMERID" id="B08F6E0C-EBE3-0EF7-3CC4-56C9E4D60650">
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:29 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PHONE" id="B6C704AA-3FA5-107F-96A8-8014469A80E4">
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:29 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COMPANY" id="BDB317B6-1014-AC75-186D-32F9723AEF9C">
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:29 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COUNTRY" id="D92D285C-29C8-D989-5E01-958229D43079">
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:29 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FIRSTNAME" id="F67A491F-A5E3-3C2D-76F4-60F3124A006F">
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:29 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_CUSTOMER" id="D7DA1619-13F4-7DB0-B7D1-0300A25D5ABC">
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:30 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+<schemaObject>6BBDA5EF-6186-3387-2412-350926E3A888</schemaObject>
+<segment>8FD42481-E9BE-AEFA-1BB0-791FA7BB6A88</segment>
+<tableSpace>3D733BC5-CF7C-EC32-B294-E1DC65110C4B</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_CUSTOMERSUPPORTREPID" id="AC40ECA5-49BF-2FA3-3FC0-1A40F4ED3E74">
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:30 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_CUSTOMER" id="1BF50550-32BC-304C-F72B-0AE3858CBB08">
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:30 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+<segment>8FD42481-E9BE-AEFA-1BB0-791FA7BB6A88</segment>
+<tableSpace>3D733BC5-CF7C-EC32-B294-E1DC65110C4B</tableSpace>
+<existingIndex>D7DA1619-13F4-7DB0-B7D1-0300A25D5ABC</existingIndex>
+<indexSegment>8FD42481-E9BE-AEFA-1BB0-791FA7BB6A88</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

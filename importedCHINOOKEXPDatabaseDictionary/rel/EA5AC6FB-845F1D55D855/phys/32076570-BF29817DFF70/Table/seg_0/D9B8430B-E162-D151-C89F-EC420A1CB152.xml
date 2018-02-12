@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="MEDIATYPE" directorySegmentName="seg_0" id="D9B8430B-E162-D151-C89F-EC420A1CB152">
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:29 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+<schemaObject>6BBDA5EF-6186-3387-2412-350926E3A888</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>98D46B35-ABDE-F4D9-63AD-F25C7740C0E1</segment>
+<tableSpace>3D733BC5-CF7C-EC32-B294-E1DC65110C4B</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="MEDIATYPEID" id="DEF64570-2791-771E-CD8C-F7349A6EE2A2">
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:29 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="EEBC6E1C-0EE5-117F-03FF-9E93BCDFE7E6">
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:29 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_MEDIATYPE" id="FAB4AAA7-95AD-FF3E-733E-E154A121D37E">
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:30 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+<schemaObject>6BBDA5EF-6186-3387-2412-350926E3A888</schemaObject>
+<segment>8FD42481-E9BE-AEFA-1BB0-791FA7BB6A88</segment>
+<tableSpace>3D733BC5-CF7C-EC32-B294-E1DC65110C4B</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_MEDIATYPE" id="107A8D8A-A749-2EE7-09C9-51F3B2CDB570">
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:30 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+<segment>8FD42481-E9BE-AEFA-1BB0-791FA7BB6A88</segment>
+<tableSpace>3D733BC5-CF7C-EC32-B294-E1DC65110C4B</tableSpace>
+<existingIndex>FAB4AAA7-95AD-FF3E-733E-E154A121D37E</existingIndex>
+<indexSegment>8FD42481-E9BE-AEFA-1BB0-791FA7BB6A88</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

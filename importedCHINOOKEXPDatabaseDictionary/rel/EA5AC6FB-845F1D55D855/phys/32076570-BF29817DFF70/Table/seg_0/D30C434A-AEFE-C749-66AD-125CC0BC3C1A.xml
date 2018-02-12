@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="GENRE" directorySegmentName="seg_0" id="D30C434A-AEFE-C749-66AD-125CC0BC3C1A">
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:29 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+<schemaObject>6BBDA5EF-6186-3387-2412-350926E3A888</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>98D46B35-ABDE-F4D9-63AD-F25C7740C0E1</segment>
+<tableSpace>3D733BC5-CF7C-EC32-B294-E1DC65110C4B</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NAME" id="85A5DFB3-9E83-BACC-43AD-73693AC6DBBA">
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:29 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GENREID" id="EC65443E-157A-A824-61C6-137F8806A7EA">
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:29 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_GENRE" id="24C71238-7435-7BF0-F797-ECE300AC309F">
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:30 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+<schemaObject>6BBDA5EF-6186-3387-2412-350926E3A888</schemaObject>
+<segment>8FD42481-E9BE-AEFA-1BB0-791FA7BB6A88</segment>
+<tableSpace>3D733BC5-CF7C-EC32-B294-E1DC65110C4B</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_GENRE" id="13F27C9C-1603-4512-717E-5F1FB407F611">
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:30 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+<segment>8FD42481-E9BE-AEFA-1BB0-791FA7BB6A88</segment>
+<tableSpace>3D733BC5-CF7C-EC32-B294-E1DC65110C4B</tableSpace>
+<existingIndex>24C71238-7435-7BF0-F797-ECE300AC309F</existingIndex>
+<indexSegment>8FD42481-E9BE-AEFA-1BB0-791FA7BB6A88</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -11,7 +11,7 @@ SELECT SYSDATE FROM dual;
 SELECT NAME FROM v$database;
 
 -- Create a pfile backup of existing spfile - RUN THIS FIRST!
--- CREATE pfile='/u02/pfile_backup/pfile_backup01.ora' from spfile;
+-- CREATE pfile='/u02/pfile_backup/pfile_backup.ora' from spfile;
 
 -- Show the existing memory parameter
 -- SHOW PARAMETER memory;

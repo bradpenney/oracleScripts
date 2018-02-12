@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="INVOICELINE" directorySegmentName="seg_0" id="64C15E3C-4FF3-FB0F-1C61-A6CAC2E91DDC">
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:29 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+<schemaObject>6BBDA5EF-6186-3387-2412-350926E3A888</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>98D46B35-ABDE-F4D9-63AD-F25C7740C0E1</segment>
+<tableSpace>3D733BC5-CF7C-EC32-B294-E1DC65110C4B</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="INVOICEID" id="0D08E8C0-EEAE-6EF6-3ABC-02F19E2A367A">
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:29 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TRACKID" id="52028E95-737E-DB27-EF31-2D6D10D93D7C">
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:29 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="QUANTITY" id="53EB19BC-C134-30CE-43BE-4F253B7F8562">
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:29 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UNITPRICE" id="BC4BDFB7-2A8F-DB95-29E4-6EE77AB48F38">
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:29 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INVOICELINEID" id="C4D819C1-8C9F-44A5-D749-9321DF6232BE">
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:29 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_INVOICELINE" id="629450FE-C58B-2461-DB40-C81899AA6CA1">
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:30 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+<schemaObject>6BBDA5EF-6186-3387-2412-350926E3A888</schemaObject>
+<segment>8FD42481-E9BE-AEFA-1BB0-791FA7BB6A88</segment>
+<tableSpace>3D733BC5-CF7C-EC32-B294-E1DC65110C4B</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_INVOICELINEINVOICEID" id="39AB9AA0-F930-B5FB-3053-D6C970141EF1">
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:30 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_INVOICELINETRACKID" id="65F195EE-FED7-1334-5291-65D19739870E">
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:30 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_INVOICELINE" id="692847A2-CEFE-5B98-3DEE-E8E09CBA5936">
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:30 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+<segment>8FD42481-E9BE-AEFA-1BB0-791FA7BB6A88</segment>
+<tableSpace>3D733BC5-CF7C-EC32-B294-E1DC65110C4B</tableSpace>
+<existingIndex>629450FE-C58B-2461-DB40-C81899AA6CA1</existingIndex>
+<indexSegment>8FD42481-E9BE-AEFA-1BB0-791FA7BB6A88</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

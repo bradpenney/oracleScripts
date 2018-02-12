@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="CBC065B8-9446-1CA3-C403-BB9DF4596565">
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 16:39:34 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

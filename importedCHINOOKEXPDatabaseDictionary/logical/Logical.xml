@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="48F1BFE1-2D74-C71B-0150-31BE8FC6F9F3" mainViewID="21A7202C-5AD6-546B-3174-6314B8531720">
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 16:39:34 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

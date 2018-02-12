@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5FBC866-9E98-881A-10D0-459302B16901" schemaObject="6BBDA5EF-6186-3387-2412-350926E3A888" name="ALBUM">
+<sourceConnName>EXPChinook</sourceConnName>
+<sourceObjSchema>EXPCHINOOK</sourceObjSchema>
+<sourceObjName>ALBUM</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:28 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ALBUMID" id="DC2A5878-D20D-F162-A133-F5EF3991F5F7">
+<sourceConnName>EXPChinook</sourceConnName>
+<sourceObjSchema>ALBUM</sourceObjSchema>
+<sourceObjName>ALBUMID</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:29 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TITLE" id="9DAB7D0C-E209-808A-89EA-989B2403B23F">
+<sourceConnName>EXPChinook</sourceConnName>
+<sourceObjSchema>ALBUM</sourceObjSchema>
+<sourceObjName>TITLE</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:29 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>160 BYTE</dataTypeSize>
+<ownDataTypeParameters>160 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ARTISTID" id="F4BD0161-C594-613A-6484-2A0D206100D9">
+<sourceConnName>EXPChinook</sourceConnName>
+<sourceObjSchema>ALBUM</sourceObjSchema>
+<sourceObjName>ARTISTID</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:29 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DEDC23A6-EDD4-999B-BD34-CCEBDED1F02B" name="PK_ALBUM">
+<sourceConnName>EXPChinook</sourceConnName>
+<sourceObjSchema>EXPCHINOOK</sourceObjSchema>
+<sourceObjName>PK_ALBUM</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:30 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC2A5878-D20D-F162-A133-F5EF3991F5F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E2DDAA0A-FF3D-EB50-B8F3-A9B370D82D2A" schemaObject="6BBDA5EF-6186-3387-2412-350926E3A888" name="PK_ALBUM">
+<sourceConnName>EXPChinook</sourceConnName>
+<sourceObjSchema>EXPCHINOOK</sourceObjSchema>
+<sourceObjName>PK_ALBUM</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:30 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC2A5878-D20D-F162-A133-F5EF3991F5F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

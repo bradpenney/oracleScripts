@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0B8CD3E9-5826-E5B1-A129-24B3A472D7C5" containerWithKeyObject="64C15E3C-4FF3-FB0F-1C61-A6CAC2E91DDC" localFKIndex="65F195EE-FED7-1334-5291-65D19739870E" name="FK_INVOICELINETRACKID">
+<sourceConnName>EXPChinook</sourceConnName>
+<sourceObjSchema>EXPCHINOOK</sourceObjSchema>
+<sourceObjName>FK_INVOICELINETRACKID</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:30 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+<referredTableLongName>EXPCHINOOK.TRACK</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DAD42091-F9BF-944F-61CD-E857041027FC</referredTableID>
+<keyObject>414C18E6-A593-BBD7-C251-C21065538567</keyObject>
+<referredKeyID>414C18E6-A593-BBD7-C251-C21065538567</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TRACKID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

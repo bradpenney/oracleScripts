@@ -1,6 +1,6 @@
 /* 
-Author: Brad Penney, January 2018
-Create tablespaces to house Chinook Schema
+Author: Brad Penney, February 2018
+Create Tablespaces
 */
 
 SPOOL /bkuprecScripts/auditLogs/create_tablespaces.log append;
@@ -9,12 +9,14 @@ SHOW USER
 SELECT SYSDATE FROM dual;
 SELECT NAME FROM v$database;
 
--- Create tablespace for Chinook data
-CREATE TABLESPACE CHINOOK_data
-DATAFILE '/u02/bkuprec/CHINOOK_data.dbf' SIZE 50M; 
+-- Create tablespace for TOOLS_DATA
+CREATE TABLESPACE TOOLS_DATA
+DATAFILE '/u02/bkuprec/TOOLS_DATA_01.dbf' SIZE 50M,
+         '/u02/bkuprec/TOOLS_DATA_02.dbf' SIZE 50M;
 
--- Create tablespace for indexes
-CREATE TABLESPACE CHINOOK_idx
-DATAFILE '/u03/bkuprec/CHINOOK_idx.dbf' SIZE 50M;
+-- Create tablespace for TOOLS_IND
+CREATE TABLESPACE TOOLS_IND
+DATAFILE '/u02/bkuprec/TOOLS_IND_01.dbf' SIZE 50M,
+         '/u02/bkuprec/TOOLS_IND_02.dbf' SIZE 50M;
 
 SPOOL off;

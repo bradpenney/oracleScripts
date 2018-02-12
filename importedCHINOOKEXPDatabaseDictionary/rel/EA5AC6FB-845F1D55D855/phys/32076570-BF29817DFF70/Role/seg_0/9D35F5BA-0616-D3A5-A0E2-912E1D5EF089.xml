@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<RoleOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.RoleOraclev10g" name="EXPCHINOOK" directorySegmentName="seg_0" id="9D35F5BA-0616-D3A5-A0E2-912E1D5EF089">
+<sourceConnName>EXPChinook</sourceConnName>
+<sourceObjName>EXPCHINOOK</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:30 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+<permissions>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions1" id="393F66E2-5011-16D1-86A6-156FE20594F6">
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:30 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+<privileges>READ, WRITE</privileges>
+<directoryOracle>79797F13-8D76-42EB-50F6-007EF1605EBF</directoryOracle>
+</Permission>
+</permissions>
+</RoleOraclev10g>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="EXPCHINOOK" directorySegmentName="seg_0" id="4AC11CE1-80E3-625C-4E7D-2A984745F994">
+<sourceConnName>EXPChinook</sourceConnName>
+<sourceObjName>EXPCHINOOK</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:28 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+<schemaObject>6BBDA5EF-6186-3387-2412-350926E3A888</schemaObject>
+<defTableSpace>3D733BC5-CF7C-EC32-B294-E1DC65110C4B</defTableSpace>
+<privileges>CREATE VIEW, CREATE SESSION, UNLIMITED TABLESPACE, CREATE TABLE</privileges>
+<quotaItems>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem1" id="EF73E202-E97F-A038-4BF0-F7CA370A07FF">
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:28 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+<size>209715200</size>
+</QuotaItem>
+</quotaItems>
+</UserOraclev10g>

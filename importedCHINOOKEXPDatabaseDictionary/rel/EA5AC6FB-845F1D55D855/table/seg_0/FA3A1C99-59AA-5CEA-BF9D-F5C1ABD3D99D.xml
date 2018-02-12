@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FA3A1C99-59AA-5CEA-BF9D-F5C1ABD3D99D" schemaObject="6BBDA5EF-6186-3387-2412-350926E3A888" name="PLAYLISTTRACK">
+<sourceConnName>EXPChinook</sourceConnName>
+<sourceObjSchema>EXPCHINOOK</sourceObjSchema>
+<sourceObjName>PLAYLISTTRACK</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:29 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PLAYLISTID" id="C5E1F05C-229A-8D8A-2878-7A650566976F">
+<sourceConnName>EXPChinook</sourceConnName>
+<sourceObjSchema>PLAYLISTTRACK</sourceObjSchema>
+<sourceObjName>PLAYLISTID</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:29 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E9321732-72E6-9FEE-76E3-CC02DEBA8F51" referredColumn="CD1009F9-E670-F989-2818-36DD41A136F6"/>
+</associations>
+</Column>
+<Column name="TRACKID" id="814D1F11-D403-53C8-4C03-865F0E03A11A">
+<sourceConnName>EXPChinook</sourceConnName>
+<sourceObjSchema>PLAYLISTTRACK</sourceObjSchema>
+<sourceObjName>TRACKID</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:29 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CE8D07E4-FDB4-502C-6080-D2149346266A" referredColumn="02586292-FFC2-8173-0BFF-C8C1C7C7C748"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0F16AB1F-D1C2-0FBF-2362-B995C97D4D4B" name="PK_PLAYLISTTRACK">
+<sourceConnName>EXPChinook</sourceConnName>
+<sourceObjSchema>EXPCHINOOK</sourceObjSchema>
+<sourceObjName>PK_PLAYLISTTRACK</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:30 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5E1F05C-229A-8D8A-2878-7A650566976F"/>
+<colUsage columnID="814D1F11-D403-53C8-4C03-865F0E03A11A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C4F422F-010E-E68C-C419-F22EFC876495" schemaObject="6BBDA5EF-6186-3387-2412-350926E3A888" name="PK_PLAYLISTTRACK">
+<sourceConnName>EXPChinook</sourceConnName>
+<sourceObjSchema>EXPCHINOOK</sourceObjSchema>
+<sourceObjName>PK_PLAYLISTTRACK</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:30 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5E1F05C-229A-8D8A-2878-7A650566976F"/>
+<colUsage columnID="814D1F11-D403-53C8-4C03-865F0E03A11A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="39386E10-9662-4D0D-7D4E-A9648FF7470E" name="FK_PLAYLISTTRACKPLAYLISTID">
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:30 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5E1F05C-229A-8D8A-2878-7A650566976F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="83270B25-878F-FF59-FE98-027A1C034273" name="FK_PLAYLISTTRACKTRACKID">
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:30 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="814D1F11-D403-53C8-4C03-865F0E03A11A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

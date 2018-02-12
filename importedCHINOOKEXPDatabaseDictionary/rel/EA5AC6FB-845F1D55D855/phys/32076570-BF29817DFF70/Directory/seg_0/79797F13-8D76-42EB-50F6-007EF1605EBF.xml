@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DirectoryOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.DirectoryOraclev10g" name="CHINOOKIMP" directorySegmentName="seg_0" id="79797F13-8D76-42EB-50F6-007EF1605EBF">
+<sourceConnName>EXPChinook</sourceConnName>
+<sourceObjName>CHINOOKIMP</sourceObjName>
+<createdBy>oracle</createdBy>
+<createdTime>2018-02-09 17:45:28 UTC</createdTime>
+<ownerDesignName>importedCHINOOKEXPDatabaseDictionary</ownerDesignName>
+<dirPath>/u02/chinookBackup</dirPath>
+</DirectoryOraclev10g>
