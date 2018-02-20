@@ -2,6 +2,7 @@
 Author: Brad Penney 
 Data: February 19th, 2018
 Purpose: Working with RMAN
+Based on: https://dbatricksworld.com/how-to-configure-oracle-rman-backup-for-the-first-time/
 */
 
 -- RUN AS "SYS as SYSDBA"
@@ -72,5 +73,7 @@ Switch to terminal
 5) SQL> show user;
 6) Exit SQLPLUS & open RMAN
 7) RMAN> register database;
+8) RMAN> report schema; -- shows databases registered by RMAN
 */
+
 
