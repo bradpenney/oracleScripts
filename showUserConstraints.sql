@@ -10,11 +10,11 @@ SHOW USER
 SELECT SYSDATE FROM dual;
 
 -- Show user constraints table 
---DESCRIBE user_constraints;
+-- DESCRIBE user_constraints;
 
 -- Show user constraints that are foreign or primary keys
-SELECT constraint_name, table_name, r_constraint_name 
+SELECT constraint_name, table_name, r_constraint_name
     FROM user_constraints
-    WHERE constraint_name LIKE '%K_%';
+    WHERE constraint_name LIKE '%FK_%';
     
 SPOOL off;
