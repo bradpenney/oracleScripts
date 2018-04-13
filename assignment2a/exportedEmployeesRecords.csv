@@ -1,0 +1,48 @@
+"EMPLOYEE_ID","EMPLOYEE_NAME","POSITION_TITLE","PHONE_EXTENSION","HIRE_DATE","OFFICE_NUMBER","REPORTS_TO","YEAR_SALARY"
+1,"Rock Roll","Sales Representative","501",01-OCT-09,"5",4,61000
+2,"Elvis Presley","President","101",14-SEP-08,"1",,80000
+3,"Rob Carsson","Sales Representative","102",01-OCT-09,"1",4,63000
+4,"Joan Callins","Sales Manager","301",03-SEP-09,"3",2,70000
+5,"Ingrid Hendrix","Sales Representative","302",17-OCT-10,"3",4,61300
+6,"Lennart Skoglund","Sales Representative","401",17-JAN-09,"4",4,61200
+7,"Tom Lindwall","Sales Representative","201",22-NOV-10,"2",4,61000
+8,"Leif Shine","Sales Coordinator","202",05-MAR-09,"2",2,65000
+9,"Helen Brolin","Sales Representative","103",15-FEB-10,"1",4,60000
+19,"David Letterman","Product Manager","222",10-OCT-08,"2",8,55500
+20,"John Cleaves","Product Manager","333",03-OCT-09,"3",8,55000
+21,"Miro Takako","Product Manager","444",22-FEB-10,"4",8,55000
+22,"Binh Protzmann","Product Manager","555",06-MAR-09,"5",8,56000
+23,"Cezar Sandu","Systems Manager","200",22-FEB-09,"2",19,51000
+24,"Cindy Crawford","Systems Manager","200",08-JUN-10,"2",19,50400
+25,"James Bond","Systems Manager","200",06-JUL-10,"2",19,50000
+26,"John Doe","Systems Manager","200",01-AUG-11,"2",19,51600
+27,"Mario Kaddafi","Systems Manager","500",05-JUN-09,"5",22,51300
+28,"Paul Dupont","Systems Manager","500",06-FEB-10,"5",22,51200
+29,"Sven Svensson","Storeman","500",29-JAN-11,"5",22,51000
+30,"Ira Baumel","Storeman","500",31-DEC-11,"5",22,50200
+31,"Keith Helmkey","Storeman","500",31-MAR-12,"5",22,50200
+32,"Rolf Wesenlund","Storeman","300",29-JUL-11,"3",20,50300
+33,"Ann Lindquist","Storeman","300",11-JAN-11,"3",20,50100
+34,"Bill Yang","Storeman","300",11-JAN-12,"3",20,50500
+35,"Charles Ingvar JÃ¶nsson","Storeman","300",31-DEC-11,"3",20,50000
+36,"Jacques Clouseau","Storeman","300",02-AUG-12,"3",20,51000
+37,"Jerry Tessel","Network Manager","400",02-AUG-10,"4",21,52000
+38,"John Lemon","Network Manager","400",02-SEP-10,"4",21,50000
+39,"Marcus Salvatori","Storeman","400",07-JAN-11,"4",21,51000
+40,"Olivier Simenon","Storeman","400",31-DEC-11,"4",21,55000
+41,"Sunil Gupta","Storeman","400",04-JAN-12,"4",21,50000
+42,"Ã–sten Ã„rlig","Account Manager","104",24-DEC-09,"1",3,51000
+43,"Bob Park","Account Manager","203",09-OCT-09,"2",7,50000
+44,"Clark Kent","Account Manager","204",31-JAN-09,"2",7,55000
+45,"Joe Cheng","Account Manager","303",02-AUG-10,"3",5,52000
+46,"Kaya Alpan","Account Manager","304",21-JAN-11,"3",5,51000
+47,"Michelle Tyson","Account Manager","402",01-FEB-10,"4",6,50000
+48,"Ricardo Gucci","Account Manager","403",01-JAN-11,"4",6,47600
+49,"Steve Cioazzi","Operator/Clerk","",01-JAN-10,"1",2,47500
+50,"Kenneth Finley","Operator/Clerk","",01-JAN-10,"2",8,45600
+51,"Lucky Luke","Operator/Clerk","",03-JAN-12,"3",4,45000
+52,"Mike Ashkenaz","Account Manager","",30-NOV-11,"1",42,49500
+53,"Richard Ranieri","Account Manager","",07-JAN-12,"2",23,49500
+54,"Sabrina Richards","Account Manager","",03-APR-11,"3",32,49500
+55,"Sehoon Daw","Account Manager","",30-NOV-11,"4",37,49500
+161,"Stefan Lind","Account Manager","",28-DEC-10,"5",27,49500
