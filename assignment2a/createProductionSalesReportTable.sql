@@ -1,4 +1,15 @@
-CREATE TABLE SALES_REPORT_PART_KEY 
+/* 
+Author: Brad Penney, April 2018
+Created Range Partitioned Table for production tablespace
+*/
+
+SPOOL /bkuprecScripts/auditLogs/createProductionSalesReportTable.log append;
+SET ECHO ON
+SHOW USER
+SELECT SYSDATE FROM dual;
+SELECT NAME FROM v$database;
+
+CREATE TABLE SALES_REPORT 
 (
   ORDERID NUMBER(7) NOT NULL 
 , PRODUCTID NUMBER(4) NOT NULL 
@@ -19,3 +30,5 @@ PARTITION BY RANGE (ORDER_DATE)
 , PARTITION ORDEDATE2014 VALUES LESS THAN (to_date('31-DEC-2014', 'DD-MM-YYYY'))  
 , PARTITION OTHER VALUES LESS THAN (MAXVALUE)  
 );
+
+spool off;
