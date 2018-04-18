@@ -36,7 +36,7 @@ ORDER BY index_name;
 -- THIS SECTION GENERATES EXPLAIN PLAN
 
 -- Sample Query that will utilize the index
-SELECT * 
+SELECT productcategory 
 FROM SALES_REPORT 
 WHERE PRODUCTCATEGORY = 'other';
 
